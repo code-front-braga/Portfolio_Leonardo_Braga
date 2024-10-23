@@ -4,5 +4,5 @@
 4 - Instalar styled-components -- ok;
 5 - Instalar @types/styled-components -- ok;
 6 - Instalar Swiper -- ok;
-7 - Limpar arquivos desnecessários;
+7 - Limpar arquivos desnecessários -- ok;
 8 - Configurar tipagem do styled-components;

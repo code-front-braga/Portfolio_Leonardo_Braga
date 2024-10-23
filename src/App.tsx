@@ -1,3 +1,6 @@
+import { ThemeProvider } from 'styled-components';
+import { Theme } from './store/theme';
+
 export function App() {
-  return <h1>Hello World</h1>;
+  return <ThemeProvider theme={Theme}></ThemeProvider>;
 }
