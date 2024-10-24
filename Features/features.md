@@ -6,5 +6,5 @@
 6 - Instalar Swiper -- ok;
 7 - Limpar arquivos desnecessários -- ok;
 8 - Configurar tipagem do styled-components -- ok;
-9 - Criar temas;
+9 - Criar temas -- ok;
 10 - Criar estrutura de pastas baseada no projeto;
