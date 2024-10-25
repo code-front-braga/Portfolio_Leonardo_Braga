@@ -1,3 +1,5 @@
+import { PageContainer } from '../../components/PageContainer/PageContainer';
+
 export function HomeSection() {
-  return <h1>Home</h1>;
+  return <PageContainer></PageContainer>;
 }

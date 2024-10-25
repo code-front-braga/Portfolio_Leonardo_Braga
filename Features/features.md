@@ -10,4 +10,8 @@
 10 - Criar estrutura de pastas baseada no projeto -- ok;
 11 - Criar as funções principais de cada componente/páginas -- ok;
 12 - Adicionar estilos globais (reset) -- ok;
-13 - Criar as rotas -- ok;
+13 - Criar o layout container para englobar as rotas -- ok;
+14 - Criar as rotas -- ok;
+15 - Criar um page container -- ok;
+16 - Estilizar Header -- ok;
+17 -

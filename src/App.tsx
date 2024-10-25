@@ -1,12 +1,14 @@
 import { ThemeProvider } from 'styled-components';
 import { Theme } from './theme';
 
-import { Router } from './Router.tsx';
+import { AppRouter } from './Router.tsx';
+import { GlobalStyles } from './global.ts';
 
 export function App() {
   return (
     <ThemeProvider theme={Theme}>
-      <Router />
+      <GlobalStyles />
+      <AppRouter />
     </ThemeProvider>
   );
 }

@@ -6,21 +6,22 @@ import { AboutMeSection } from './sections/AboutMe/About-Me.tsx';
 import { SkillsSection } from './sections/Skills/Skills.tsx';
 import { ProjectsSection } from './sections/Projects/Projects.tsx';
 import { ContactSection } from './sections/Contact/Contact.tsx';
+import { IRoute } from './interfaces/interfaces';
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: '/',
     element: <DefaultLayout />,
     children: [
-      { path: 'my_portfolio/sections/Home', element: <HomeSection /> },
-      { path: 'my_portfolio/sections/AboutMe', element: <AboutMeSection /> },
-      { path: 'my_portfolio/sections/Skills', element: <SkillsSection /> },
-      { path: 'my_portfolio/sections/Projects', element: <ProjectsSection /> },
-      { path: 'my_portfolio/sections/Contact', element: <ContactSection /> },
-    ],
+      { path: 'home', element: <HomeSection /> },
+      { path: 'about', element: <AboutMeSection /> },
+      { path: 'skills', element: <SkillsSection /> },
+      { path: 'projects', element: <ProjectsSection /> },
+      { path: 'contact', element: <ContactSection /> },
+    ] as IRoute[],
   },
 ]);
 
-export function Router() {
+export function AppRouter() {
   return <RouterProvider router={router} />;
 }
